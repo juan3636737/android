@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".MainActivity"
+    android:background="#D7C318"
+    >
+
+    <LinearLayout
+        android:layout_width="350dp"
+        android:layout_height="800dp"
+        android:background="#03013E"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="350dp"
+            android:layout_height="150dp"
+            android:background="#03013E"
+            android:gravity="center"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="DUOLINGO"
+                android:textColor="#ffffff"
+                android:textSize="40sp"
+
+                app:fontFamily="@font/amiko" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="340dp"
+            android:layout_height="100dp"
+            android:background="#03013E"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="LOGIN TO YOUR ACCOUNT"
+                android:textColor="#ffffff"
+                android:textSize="34sp"
+
+                app:fontFamily="@font/anton" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="350dp"
+            android:layout_height="250dp"
+            android:background="#03013E"
+            android:gravity="center"
+            android:orientation="vertical"
+
+            >
+
+            <EditText
+                android:id="@+id/editTextTextPersonName6"
+                android:layout_width="300dp"
+                android:layout_height="63dp"
+                android:layout_marginBottom="10dp"
+                android:background="#3a4859"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:padding="15dp"
+                android:text="USER OR EMAIL"
+
+                android:textColor="#ffffff"
+                app:fontFamily="@font/amiko"
+
+
+                />
+
+            <EditText
+                android:id="@+id/editTextTextPersonName7"
+                style="@style/Widget.AppCompat.AutoCompleteTextView"
+                android:layout_width="300dp"
+                android:layout_height="63dp"
+                android:layout_marginBottom="10dp"
+                android:background="#3a4859"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:padding="15dp"
+                android:text="PASSSWORD"
+                android:textColor="#ffffff"
+                app:fontFamily="@font/amiko" />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="end"
+                android:paddingRight="10dp"
+                android:text="forgot you password?"
+                android:textColor="#ffffff" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/button"
+                android:layout_width="300dp"
+                android:layout_height="60dp"
+                android:text="LOG IN"
+
+                app:backgroundTint="#D1B10F" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="or login in with"
+                android:textColor="#ffffff"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:orientation="horizontal"
+            android:gravity="center">
+
+
+            <Button
+                android:id="@+id/button4"
+                android:layout_width="120dp"
+                android:layout_height="62dp"
+
+                android:text="GOOGLE"
+                app:backgroundTint="#444245" />
+
+            <Button
+                android:id="@+id/button5"
+                android:layout_width="120dp"
+                android:layout_height="62dp"
+                app:icon="@drawable/ic_icons8_facebook"
+                android:text="FACEBOOK"
+                app:backgroundTint="#444245" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center">
+
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:text="By using duolingo you agree to our term of service and privacy policy"
+                android:textColor="#ffffff"
+                android:gravity="center"
+                />
+        </LinearLayout>
